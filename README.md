@@ -9,8 +9,11 @@
 pip install -r requirements
 ```
 
+
 ### Запуск
 ```
 python docxreplacer.py
 ```
 
+### Замена параметров
+Все параметры на данный момент хранятся в файле title_keys. Для того, чтобы изменить или добавить свои, отредактируйте title_template.docx и title_keys в нужных местах.
