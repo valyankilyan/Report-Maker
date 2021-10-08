@@ -12,4 +12,4 @@ for p in document.paragraphs:
                         p.runs[i].text = p.runs[i].text.replace(
                             c, replace_dictionary[c])
 
-document.save("out.docx")
+document.save("title.docx")
